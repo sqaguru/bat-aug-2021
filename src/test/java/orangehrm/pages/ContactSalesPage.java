@@ -21,6 +21,15 @@ public class ContactSalesPage {
 		this.driver = driver;
 	}
 
+	/*#######################################################################
+	 * method name: submitContactSalesForm\n 
+	 * description: enter contact sales form details and submit the form\b author: guru\b created date: 9 Oct 2021
+	 * input parameters: NA
+	 * return parameters: NA
+	 * modified by:
+	 * reviewed by:
+	 #######################################################################*/
+
 	public void submitContactSalesForm() {
 
 		driver.findElement(TXT_FIRST_NAME).sendKeys("SQA");
